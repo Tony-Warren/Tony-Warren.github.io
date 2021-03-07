@@ -1,0 +1,20 @@
+body {
+  margin: 2%;
+  padding: 1%;
+  background-color: rgb(193, 229, 240);
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #000000;
+}
+form legend {
+  font-variant: small-caps;
+  font-size: 1em;
+  font-weight: bold;
+}
+input {
+  width: 7em;
+}

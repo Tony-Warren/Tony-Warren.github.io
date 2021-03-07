@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms 1</title>
+        <link rel="stylesheet" href="css/forms1.css">
+        <script src = "js/forms1.js"></script>
+    </head>
+    <body>
+        <h1> Minutos Trabajado</h1>
+        <form >
+            <fieldset>
+                <legend> Calcular minutos trabajado</legend>
+                <label for="Start">Hora en que empezaste: </label>
+                <input type="text" 
+                    id="start" 
+                    name="start" 
+                    pattern="^(\d{1,2}):(\d{2})([ap]m)?$"
+                    placeholder="hh:mm am/pm">
+                <br />
+                <label for="End">Hora en que terminaste: </label>
+                <input type="text" 
+                    id="end" 
+                    name="end" 
+                    pattern="^(\d{1,2}):(\d{2})([ap]m)?$"
+                    placeholder="hh:mm am/pm">
+                    <br>
+                    <input type = "button" 
+                        value = "Calcular" 
+                        onclick="check();"/>
+            </fieldset>
+            
+        </form>
+        <p id = "worked"></p>
+    </body>
+</html>
