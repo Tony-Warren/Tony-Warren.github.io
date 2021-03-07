@@ -7,14 +7,18 @@ body {
 }
 h1 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: xx-large;
   color: #000000;
+}
+form {
+  font-size: xx-large;
 }
 form legend {
   font-variant: small-caps;
-  font-size: 1em;
+  font-size: x-large;
   font-weight: bold;
 }
 input {
   width: 7em;
+  font-size: x-large;
 }
