@@ -19,7 +19,7 @@ function displayWorkTimes() {
 
 
 function addToTable() {
-  const date = document.getElementById('date') + ' ';
+  const date = document.getElementById('date');
   const start = document.getElementById('start-time');
   const end = document.getElementById('end-time');
 
