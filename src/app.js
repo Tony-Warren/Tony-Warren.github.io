@@ -19,7 +19,7 @@ function displayWorkTimes() {
 
 
 function addToTable() {
-  const date = document.getElementById('date'+' 00:00');
+  const date = document.getElementById('date');
   const start = document.getElementById('start-time');
   const end = document.getElementById('end-time');
 
@@ -27,7 +27,7 @@ function addToTable() {
   if (msg !=  '') {
     ui.showAlert(msg, 'alert alert-danger');
   } else {
-    const workTime = new WorkTime(date.value,start.value,end.value);
+    const workTime = new WorkTime(date.value+' 00:00',start.value,end.value);
     workWeek.pushWorkTime(workTime);
     ui.addWorkToList(workTime);
     // ui.showTotals()
