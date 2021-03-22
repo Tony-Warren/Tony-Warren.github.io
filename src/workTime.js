@@ -9,7 +9,7 @@ class WorkTime {
   constructor(date,start,end,key=Math.random()) {
     console.log('date: ', date)
     this.key = key;
-    this.date = new Date(date) + ' ';  // without the added space it returns the day before
+    this.date = new Date(date + ' ');  // without the added space it returns the day before
     console.log('this.date: ', this.date)
     this.start = start;
     this.end = end;
